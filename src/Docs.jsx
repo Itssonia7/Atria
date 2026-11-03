@@ -4,7 +4,6 @@ import {
   BookOpen,
   Code,
   FileText,
-  Layers,
   Stack,
 } from '@phosphor-icons/react'
 
@@ -23,7 +22,7 @@ const groups = [
     title: 'Design',
     description: 'The visual language and reusable interface decisions.',
     items: [
-      { icon: Layers, title: 'Design System Guidelines', type: 'DESIGN SYSTEM', status: 'COMING SOON', description: 'Foundations, tokens, components, states, and usage guidance.' },
+      { icon: Stack, title: 'Design System Guidelines', type: 'DESIGN SYSTEM', status: 'COMING SOON', description: 'Foundations, tokens, components, states, and usage guidance.' },
       { icon: Stack, title: 'Component Documentation', type: 'REFERENCE', status: 'COMING SOON', description: 'Component anatomy, variants, behaviour, and accessibility notes.' },
     ],
   },
