@@ -51,8 +51,8 @@ function App() {
           <span>atria<span className="brand-period">.</span></span>
         </a>
         <div className="nav-links">
-          <a href="#studio">The studio</a>
-          <a href="#foundations">Foundations</a>
+          <a href="#studio">Studio</a>
+          <a href="#foundations">Foundation</a>
           <a href="#components">Components</a>
           <a href="/docs">Docs</a>
           <a href="#contact">Contact</a>
