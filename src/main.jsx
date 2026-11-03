@@ -6,6 +6,6 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {window.location.pathname.replace(/\\/+$/, '') === '/docs' ? <Docs /> : <App />}
+    {window.location.pathname === '/docs' ? <Docs /> : <App />}
   </React.StrictMode>,
 )
