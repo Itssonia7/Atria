@@ -183,3 +183,17 @@ h2 { font-size: clamp(38px, 5vw, 57px); line-height: 1.05; letter-spacing: -.07e
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Contact section */
+.contact-section { padding-top: 105px; padding-bottom: 112px; border-top: 1px solid var(--line); }
+.contact-layout { display: grid; grid-template-columns: 1fr .8fr; gap: 90px; align-items: end; margin-top: 38px; }
+.contact-intro { max-width: 350px; color: #77756f; font-size: 13px; line-height: 1.9; margin-top: 22px; }
+.contact-links { border-top: 1px solid var(--line); }
+.contact-link { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 17px 2px; border-bottom: 1px solid var(--line); color: #77756f; font-size: 11px; transition: color .2s, padding .2s; }
+.contact-link span { display: flex; align-items: center; gap: 11px; }
+.contact-link:hover { color: var(--ink); padding-left: 7px; }
+.contact-email { color: var(--ink); font-weight: 700; }
+@media (max-width: 600px) {
+  .contact-section { padding-top: 75px; padding-bottom: 80px; }
+  .contact-layout { grid-template-columns: 1fr; gap: 30px; margin-top: 30px; }
+}
