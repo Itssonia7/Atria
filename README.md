@@ -78,6 +78,12 @@ You can contribute through:
 
 Please check the contribution guidelines before submitting a pull request.
 
+## Documentation
+
+Documentation is maintained in the repository `docs/` folder and on the [Atria documentation page](https://atriastudio.vercel.app/docs).
+
+Contributors and developers should refer to either location for product context, design system guidelines, architecture notes, developer setup, and other project documentation. The documentation library is being expanded as the project develops.
+
 ## Project Status
 
 Atria is currently in its early development stage as part of **NSoC Winter Edition 2026**.
