@@ -11,6 +11,7 @@ import {
   FigmaLogo,
   GithubLogo,
   LinkedinLogo,
+  Globe,
   EnvelopeSimple,
   Stack,
   Palette,
@@ -173,10 +174,10 @@ function App() {
         <div className="contact-layout">
           <div><h2>Good things start<br />with a <em>conversation.</em></h2><p className="contact-intro">Have a thought, a question, or an idea to build together? Find me around the web.</p></div>
           <div className="contact-links">
-            <a className="contact-link contact-email" href="mailto:nagekarsimran@outlook.com"><span><EnvelopeSimple size={18} /> nagekarsimran@outlook.com</span><ArrowUpRight size={16} /></a>
+            <a className="contact-link contact-email" href="mailto:nagekarsimran@outlook.com"><span><EnvelopeSimple size={18} /> Email</span><ArrowUpRight size={16} /></a>
             <a className="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span><LinkedinLogo size={18} /> LinkedIn</span><ArrowUpRight size={16} /></a>
             <a className="contact-link" href="https://github.com/breeze-sn" target="_blank" rel="noreferrer"><span><GithubLogo size={18} /> GitHub</span><ArrowUpRight size={16} /></a>
-            <a className="contact-link" href="https://simransn.vercel.app" target="_blank" rel="noreferrer"><span><ArrowUpRight size={18} /> Portfolio — simransn.vercel.app</span><ArrowUpRight size={16} /></a>
+            <a className="contact-link" href="https://simransn.vercel.app" target="_blank" rel="noreferrer"><span><Globe size={18} /> Website</span><ArrowUpRight size={16} /></a>
           </div>
         </div>
       </section>
