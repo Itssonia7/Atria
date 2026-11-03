@@ -10,7 +10,7 @@ import {
   Cube,
   FigmaLogo,
   GithubLogo,
-  Layers,
+  Stack,
   Palette,
   SlidersHorizontal,
   Sparkle,
@@ -81,7 +81,7 @@ function App() {
               <div className="side-item active"><SquaresFour size={14} /> Overview</div>
               <div className="side-item"><Palette size={14} /> Foundations</div>
               <div className="side-item"><Cube size={14} /> Components</div>
-              <div className="side-item"><Layers size={14} /> Tokens</div>
+              <div className="side-item"><Stack size={14} /> Tokens</div>
               <div className="side-bottom"><span className="avatar">A</span><span>Personal space</span></div>
             </aside>
             <div className="art-main">
