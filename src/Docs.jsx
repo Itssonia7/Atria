@@ -1,6 +1,7 @@
 import {
   ArrowLeft,
   ArrowUpRight,
+  GithubLogo,
   BookOpen,
   Code,
   FileText,
@@ -45,8 +46,8 @@ function Docs() {
           <span className="brand-mark"><span /><span /><span /><span /></span>
           <span>atria<span className="brand-period">.</span></span>
         </a>
-        <div className="nav-links"><a href="/">Home</a><a href="/#studio">The studio</a><a href="/#contact">Contact</a></div>
-        <a className="nav-cta" href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer">View on GitHub <ArrowUpRight size={14} /></a>
+        <div className="nav-links"><a href="/">Home</a><a href="/#foundations">Foundation</a><a href="/#components">Components</a><a href="/docs">Docs</a><a href="/#contact">Contact</a></div>
+        <a className="nav-cta" href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer"><GithubLogo size={17} weight="regular" /> View on GitHub <ArrowUpRight size={14} /></a>
       </nav>
 
       <section className="docs-hero shell">
