@@ -10,6 +10,8 @@ import {
   Cube,
   FigmaLogo,
   GithubLogo,
+  LinkedinLogo,
+  EnvelopeSimple,
   Stack,
   Palette,
   SlidersHorizontal,
@@ -52,6 +54,8 @@ function App() {
           <a href="#studio">The studio</a>
           <a href="#foundations">Foundations</a>
           <a href="#components">Components</a>
+          <a href="/docs">Docs</a>
+          <a href="#contact">Contact</a>
         </div>
         <a className="nav-cta" href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer">
           <GithubLogo size={17} weight="regular" /> View on GitHub <ArrowUpRight size={14} />
@@ -163,9 +167,23 @@ function App() {
         </div>
       </section>
 
+
+      <section className="contact-section shell" id="contact">
+        <div className="section-index">[ 05 — GET IN TOUCH ]</div>
+        <div className="contact-layout">
+          <div><h2>Good things start<br />with a <em>conversation.</em></h2><p className="contact-intro">Have a thought, a question, or an idea to build together? Find me around the web.</p></div>
+          <div className="contact-links">
+            <a className="contact-link contact-email" href="mailto:nagekarsimran@outlook.com"><span><EnvelopeSimple size={18} /> nagekarsimran@outlook.com</span><ArrowUpRight size={16} /></a>
+            <a className="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span><LinkedinLogo size={18} /> LinkedIn</span><ArrowUpRight size={16} /></a>
+            <a className="contact-link" href="https://github.com/breeze-sn" target="_blank" rel="noreferrer"><span><GithubLogo size={18} /> GitHub</span><ArrowUpRight size={16} /></a>
+            <a className="contact-link" href="https://simransn.vercel.app" target="_blank" rel="noreferrer"><span><ArrowUpRight size={18} /> Portfolio — simransn.vercel.app</span><ArrowUpRight size={16} /></a>
+          </div>
+        </div>
+      </section>
+
       <footer className="footer shell">
         <div className="footer-top"><a className="brand" href="#"><span className="brand-mark"><span /><span /><span /><span /></span><span>atria<span className="brand-period">.</span></span></a><p>A more considered way to build<br />and maintain design systems.</p><a className="footer-github" href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer"><GithubLogo size={18} /> Star the project <ArrowUpRight size={14} /></a></div>
-        <div className="footer-bottom"><span>© 2026 ATRIA STUDIO</span><span>OPEN SOURCE · EARLY DEVELOPMENT</span><a href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer">GITHUB <ArrowUpRight size={12} /></a></div>
+        <div className="footer-bottom"><span>© 2026 ATRIA STUDIO</span><span>OPEN SOURCE · EARLY DEVELOPMENT</span><a href="/docs">DOCUMENTATION</a><a href="https://github.com/breeze-sn/Atria" target="_blank" rel="noreferrer">GITHUB <ArrowUpRight size={12} /></a></div>
       </footer>
     </main>
   )
