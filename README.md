@@ -84,6 +84,12 @@ Documentation is maintained in the repository `docs/` folder and on the [Atria d
 
 Contributors and developers should refer to either location for product context, design system guidelines, architecture notes, developer setup, and other project documentation. The documentation library is being expanded as the project develops.
 
+## License
+
+Atria is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software, subject to the terms of that license.
+
+---
+
 ## Project Status
 
 Atria is currently in its early development stage as part of **NSoC Winter Edition 2026**.
