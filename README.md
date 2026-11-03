@@ -43,7 +43,7 @@ Our goal is to make building and maintaining consistent design systems easier, m
 | Vite | Development and build tooling |
 | Tailwind CSS | Styling |
 | Radix UI | Accessible UI primitives |
-| Lucide | Icon library |
+| Phosphor Icons | Icon library |
 | Node.js | Backend runtime |
 | Express.js | API development |
 | PostgreSQL | Database |
